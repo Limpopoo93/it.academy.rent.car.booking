@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/postgres
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+jwttoken:
+  secret: jwtappdemo
+  expired: 3600000
